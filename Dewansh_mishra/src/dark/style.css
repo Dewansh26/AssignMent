@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background: black;
+    background-image: url(images/BackgroundAnimation.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.wrapper {
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+ 
+
+}
+
+.Container {
+    width: 100%;
+    height: 100%;
+    margin: 2px 2px;
+   
+}
+
+.logo {
+    width: 390.81px;
+    height: 64.81px;
+    position: relative;
+    top: 24px;
+    left: 24px;
+    padding: 21.13px 34.94px 21.13px 34.94px;
+    gap: 6.09px;
+    opacity: 0px;
+    font-weight: 500;
+    font-size: large;
+    color: white;
+    font-family: Montserrat;
+    font-size: 19.5px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 1.625px;
+    margin: 46px;
+}
+
+.logo span {
+    width: 80px;
+    height: 10px;
+    gap: 4.06px;
+    background-color: white;
+    color: black;
+    opacity: 0px;
+  
+}
+
+
+.content {
+   
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.titleIcon {
+    width: 1027px; 
+    display: flex;
+    gap: 8px;
+}
+
+.rocimg {
+    width: 64px;
+    height: 64px;
+}
+
+.title {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600; 
+    text-align: center;
+color: white;
+}
+
+.Description {
+    font-family: Poppins;
+    width: 959px; 
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    margin: 0 34px;
+    padding-top: 1rem;
+    color: white;
+}
+
+.Description span {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: center;
+    color: white;
+}
+
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 38%;
+    font-family: Poppins;
+}
+
+.reveal {
+    margin-top: 40px;
+    font-size: 1.80rem;
+    letter-spacing: 10px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.timer {
+    width: 434px;
+    height: 184px;
+    padding: 0px 0px 0px 0px;
+    gap: 64px;
+    border-radius: 24px;
+    background: linear-gradient(99.46deg, #380D2C 0.87%, #4D173E 0.88%, #2B174D 97.78%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+.timer-p{
+    padding-top: 40px;
+    color: white;
+}
+.timer .minutes span {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.timer .minutes p {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 8px;
+}
+
+.timer .colon span {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.timer .seconds span {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.timer .seconds p {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 8px;
+}
+
+.middle p {
+    font-size: 1.30rem;
+    opacity: -90px;
+}
+
+.emailverifier {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    /* color: white; */
+}
+
+.emailverifier .btn {
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    font-size: 1.70rem;
+    font-weight: 400;
+    padding: 3px 2rem;
+    font-family: Poppins;
+}
+
+.notifyDes {
+    width: 697px;
+    height: 24px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+}
+
+.inputField {
+    width: 600px;
+    height: 52px;
+    padding: 16px 20px 16px 20px;
+    border-radius: 8px;
+    border: 1.5px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    border: 1.5px solid #CCCCCC
+}
+
+.notifySec {
+    width: 600px;
+    height: 52px;
+    color: white;
+    display: flex;
+
+
+}

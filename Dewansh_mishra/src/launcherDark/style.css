@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background: black;
+    background-image: url(images/BackgroundAnimation.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 390.81px;
+    height: 64.81px;
+    position: relative;
+    left: 24px;
+    padding: 21.13px 34.94px 21.13px 34.94px;
+    gap: 6.09px;
+    opacity: 0px;
+    font-weight: 500;
+    font-size: large;
+    color: white;
+    font-family: Montserrat;
+    font-size: 19.5px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 1.625px;
+    margin: 46px;
+}
+
+.logo span {
+    width: 80px;
+    height: 10px;
+    gap: 4.06px;
+    background-color: white;
+    color: black;
+
+}
+
+.Card {
+    width: 699px;
+    height: 398px;
+    padding: 64px;
+    gap: 72px;
+    border-radius: 24px;
+    background: linear-gradient(99.46deg, #380D2C 0.87%, #4D173E 0.88%, #2B174D 97.78%);
+    margin: 84px 418px;
+    font-family: Poppins;
+}
+
+.title {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+    color: white;
+}
+
+
+.dis {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: white;
+    margin-top: 24px;
+}
+
+.Card span {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: center;
+
+}
+
+button {
+    width: 224px;
+    height: 52px;
+    padding: 10px 20px 10px 20px;
+    gap: 0px;
+    border-radius: 8px;
+    align-items: center;
+    margin: 67px 170px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    color: #0F0F0F;
+
+}

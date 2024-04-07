@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    background: url(./images/BackgroundAnimation.png);
+    
+}
+.page {
+    width: 1440px;
+    height: 1024px;
+    top: 556px;
+    left: 226px;
+    position: sticky;
+}
+
+.logo {
+    width: 390.81px;
+    height: 64.81px;
+    position: sticky;
+    top: 24px;
+    left: 24px;
+    padding: 21.13px 34.94px 21.13px 34.94px;
+    gap: 6.09px;
+    color: #FFFFFF;
+
+}
+
+.logo p {
+    font-family: Montserrat;
+    font-size: 19.5px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 1.625px;
+    text-align: center;
+}
+
+.logo span {
+    width: 117.69px;
+    height: 22.56px;
+    padding: 5.28px 2.84px 5.28px 2.84px;
+    gap: 4.06px; */
+/* opacity: 0px; */
+/* background-color: white;
+    color: #2A2A2A;
+
+}
+
+.mainContent { */
+/* font-family: Poppins; */
+/* width: 1027px;
+    height: 672px;
+    position: fixed;
+    top: 176px;
+    left: 207px;
+    gap: 72px;
+    display: grid;
+
+
+}
+
+.header {
+    width: 1027px;
+    height: 146px;
+    gap: 8px;
+    display: grid;
+}
+
+.titleIcon {
+    width: 1027px;
+    height: 64px;
+    display: flex;
+    gap: 8px;
+}
+
+.rocimg {
+    width: 64px;
+    height: 64px;
+}
+
+.title {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+
+}
+
+.Description {
+    font-family: Poppins;
+    width: 959px;
+    height: 58px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    margin: 0 34px;
+}
+
+.Description span {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: center;
+}
+
+.timer {
+    width: 434px;
+    height: 184px;
+    padding: 32px;
+    gap: 64px;
+    border-radius: 24px;
+    background: linear-gradient(99.46deg, #380D2C 0.87%, #4D173E 0.88%, #2B174D 97.78%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+.minutes {
+    width: 110px;
+    height: 120px;
+    padding: 8px;
+    gap: 16px;
+    position: relative;
+}
+
+.minDes {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 64px;
+    text-align: left;
+    width: 82px;
+    height: 64px;
+    color: #FFFFFF;
+
+
+}
+
+.minText {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 94px;
+    height: 24px;
+    color: #FFFFFF;
+
+}
+
+.colon {
+    width: 12px;
+    height: 64px;
+    rotate: -180 deg;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.second {
+    width: 110px;
+    height: 120px;
+    padding: 8px;
+    gap: 16px;
+    position: relative;
+}
+
+.secDes {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 64px;
+    text-align: left;
+    width: 79px;
+    height: 64px;
+    color: #FFFFFF;
+
+}
+
+.secText {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 104px;
+    height: 24px;
+    color: #FFFFFF;
+
+}
+
+.notify {
+    width: 804px;
+    height: 100px;
+    gap: 24px;
+    opacity: 0px;
+}
+
+.notifyDes {
+    width: 697px;
+    height: 24px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.inputField {
+    width: 600px;
+    height: 52px;
+    padding: 16px 20px 16px 20px;
+    border-radius: 8px;
+    border: 1.5px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    border: 1.5px solid #CCCCCC
+}
+
+.notifySec {
+    width: 804px;
+    height: 52px;
+    gap: 14px;
+    display: flex;
+
+
+}
+
+.notifyBtn {
+    width: 190px;
+    height: 48px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 8px;
+    background: #FFFFFF; */
+/* width: 150px;
+    height: 32px; */
+/* color: #0F0F0F80;  */
+/* font-family: Poppins;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+}
+
+.notifyBtnDes {
+
+} */
+
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 1440px;
+    height: 1024px;
+    /* border: 2px solid #2b174d; */
+    margin: 0 auto;
+    /* margin-top: 80px; */
+    /* not working */
+    /* padding-top: 20px; */
+    /* position: relative;
+  top: 20%; */
+    /* background: black; */
+
+}
+
+.Container {
+    width: 100%;
+    height: 100%;
+    margin: 2px 2px;
+   
+}
+
+.logo {
+    width: 390.81px;
+    height: 64.81px;
+    position: relative;
+    top: 24px;
+    left: 24px;
+
+    padding: 21.13px 34.94px 21.13px 34.94px;
+    gap: 6.09px;
+    opacity: 0px;
+
+    font-weight: 500;
+    font-size: large;
+    color: black;
+    font-family: Montserrat;
+    font-size: 19.5px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 1.625px;
+    margin: 46px;
+    /* padding: 2px 2px; */
+    /* position: sticky;  why?*/
+    /* padding: 21.13px 34.94px 21.13px 34.94px; */
+    /* gap: 6.09px; */
+}
+
+.logo span {
+    width: 80px;
+    height: 10px;
+    gap: 4.06px;
+    background-color: white;
+    color: black;
+    opacity: 0px;
+    /* padding: 5.28px 2.84px 5.28px 2.84px; */
+}
+
+
+.content {
+    /* font-family: Poppins; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid #2b174d; */
+    text-align: center;
+    /* top: 176px;
+  left: 207px; */
+    /* gap: 72px; */
+    /* position: fixed;*/
+}
+
+.titleIcon {
+    width: 1027px; 
+    display: flex;
+    gap: 8px;
+}
+
+.rocimg {
+    width: 64px;
+    height: 64px;
+}
+
+.title {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600; 
+    text-align: center;
+
+}
+
+/* .content h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    gap: 8px;
+    font-family: Poppins;
+} */
+
+.Description {
+    font-family: Poppins;
+    width: 959px; 
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    margin: 0 34px;
+    padding-top: 1rem;
+}
+
+.Description span {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: center;
+}
+
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 38%;
+    font-family: Poppins;
+}
+
+.reveal {
+    margin-top: 40px;
+    font-size: 1.80rem;
+    letter-spacing: 10px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.timer {
+    width: 434px;
+    height: 184px;
+    padding: 0px 0px 0px 0px;
+    gap: 64px;
+    border-radius: 24px;
+    background: linear-gradient(99.57deg, #E6B8D9 1%, #C9B8E6 100.1%);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+.timer-p{
+    padding-top: 40px;
+}
+.timer .minutes span {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.timer .minutes p {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 8px;
+}
+
+.timer .colon span {
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.timer .seconds span {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.timer .seconds p {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 8px;
+}
+
+.middle p {
+    font-size: 1.30rem;
+    opacity: -90px;
+}
+
+.emailverifier {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+/* .emailverifier input {
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 0.70rem 10rem;
+    border-radius: 7px;
+} */
+
+.emailverifier .btn {
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    font-size: 1.70rem;
+    font-weight: 400;
+    padding: 3px 2rem;
+    font-family: Poppins;
+}
+
+.notifyDes {
+    width: 697px;
+    height: 24px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.inputField {
+    width: 600px;
+    height: 52px;
+    padding: 16px 20px 16px 20px;
+    border-radius: 8px;
+    border: 1.5px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    border: 1.5px solid #CCCCCC
+}
+
+.notifySec {
+    width: 600px;
+    height: 52px;
+    /* gap: 14px; */
+    display: flex;
+
+
+}
